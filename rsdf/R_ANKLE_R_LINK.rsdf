@@ -1,0 +1,22 @@
+<robot name="hrp4cr">
+  <planar_surface name="RightFoot" link="R_ANKLE_R_LINK">
+    <origin xyz="0 0 -0.093" rpy="0 0 0" />
+    <points>
+      <point xy="0.10 -0.048" />
+      <point xy="0.10 0.028" />
+      <point xy="-0.06 0.028" />
+      <point xy="-0.06 -0.048" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+  <planar_surface name="RightFootCenter" link="R_ANKLE_R_LINK">
+    <origin xyz="0.02 0 -0.093" rpy="0 0 0" />
+    <points>
+      <point xy="0.08 -0.048" />
+      <point xy="0.08 0.028" />
+      <point xy="-0.08 0.028" />
+      <point xy="-0.08 -0.048" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+</robot>

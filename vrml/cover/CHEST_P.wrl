@@ -1,0 +1,65 @@
+#VRML V2.0 utf8
+
+Transform {
+children [
+ Transform {translation 0 0 0 rotation 0 0 1 0 scale 1 1 1 children[
+      Transform {translation -0.01 0 0 scale 1 1 1 children [Shape {geometry  Sphere { radius  0.065 }
+           appearance Appearance {material Material {diffuseColor     0.2 0.2 0.2}}}]}
+     ]}
+   Shape {
+     appearance Appearance { 
+       material Material {
+         diffuseColor     0.251 0.251 0.251
+         specularColor    0.24 0.24 0.24
+         emissiveColor    0.05 0.05 0.05
+         shininess        0.03
+         transparency     0
+         ambientIntensity 0.55
+       }
+     }
+     geometry IndexedFaceSet {
+       ccw    TRUE
+       convex TRUE
+       solid  FALSE
+       creaseAngle 1.03847
+       coord  Coordinate {
+       point [
+          -0.0080777 0.0239736 -0.021,
+          -0.0225 0.0239736 0,
+          -0.0225 0.0239736 -0.021,
+          -0.0225 -0.0240264 0,
+          -0.0080777 -0.0240264 -0.021,
+          -0.0225 -0.0240264 -0.021,
+          0.027 -0.0225 -0.0225,
+          0.027 0.0225 -0.0225,
+          0 0.0225 -0.0225,
+          0 -0.0225 -0.0225,
+          0 0.0225 0.0225,
+          0.027 0.0225 0.0225,
+          0.027 -0.0225 0.0225,
+          0 -0.0225 0.0225,
+         ]
+       }
+     coordIndex [
+        2, 1, 0, -1,
+        5, 4, 3, -1,
+        2, 0, 4, -1,
+        4, 5, 2, -1,
+        5, 3, 1, -1,
+        1, 2, 5, -1,
+        8, 7, 6, -1,
+        6, 9, 8, -1,
+        12, 11, 10, -1,
+        10, 13, 12, -1,
+        6, 12, 13, -1,
+        13, 9, 6, -1,
+        7, 11, 12, -1,
+        12, 6, 7, -1,
+        8, 10, 11, -1,
+        11, 7, 8, -1,
+       ]
+     }
+   }
+   
+  ] 
+} 

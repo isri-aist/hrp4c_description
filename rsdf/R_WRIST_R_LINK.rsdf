@@ -1,0 +1,13 @@
+<robot name="hrp4">
+  <planar_surface name="RightHand" link="R_WRIST_R_LINK">
+    <origin xyz="-0.018 0.01 -0.0713" rpy="1.5707963267948966 0 0" />
+    <points>
+      <point xy="0.03 0.032" />
+      <point xy="-0.007 0.032" />
+      <point xy="-0.022 0.0076" />
+      <point xy="-0.023 -0.03" />
+      <point xy="0.03 -0.03" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+</robot>

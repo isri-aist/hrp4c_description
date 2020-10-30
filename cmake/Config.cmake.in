@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+
+# Mimic catkin variable
+set(@PROJECT_NAME@_INSTALL_PREFIX "${PACKAGE_PREFIX_DIR}/share/@PROJECT_NAME@")
