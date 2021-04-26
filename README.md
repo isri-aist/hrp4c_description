@@ -18,7 +18,7 @@ On an environment with ROS and catkin properly setup
 
 ```sh
 cd <catkin_data_ws>/src
-git clone https://github.com/isri-aist/hrp4c 
+git clone https://github.com/isri-aist/hrp4c_description 
 cd ..
 catkin build
 ```
@@ -31,7 +31,7 @@ If you are on an environment without ROS and catkin, you can still install the r
 
 ```sh
 cd src
-git clone https://github.com/isri-aist/hrp4c
+git clone https://github.com/isri-aist/hrp4c_description
 cd hrp4c_description
 mkdir build
 cd build
